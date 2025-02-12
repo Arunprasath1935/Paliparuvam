@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <title>AU super school</title>
+    <link rel="stylesheet" href="contact2.css">
+    <div class="main">
+        <div class="GFG">AU Super school</div>
+        <div id="quote">Creation of Saviors</div>
+    </div>
+    <h1>Registration form</h1>
+    <p><strong>Enter your Details:</strong></p>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname"name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname"name="lname"><br>
+        <label for="email">Enter your Email</label><br>
+        <input type="email" id="email" name="email"><br>
+    <p><b>GENDER:</b></p>
+        <label for="male">Male</label>
+        <input type="radio" id="male"name="GENDER"value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female"name="GENDER"value="female">
+        <label for="trans">Transgender</label>
+        <input type="radio" id="trans"name="GENDER"value="trans">
+    <p><b>DATE OF BIRTH:</b></p>
+        <label for="birthday">DOB</label><br>
+        <input type="date" id="birthday" name="DOB"><br>
+    <p><b>Phone number:</b></p>
+        <label for="phone">Enter your Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="##########" pattern="[0-9]{10}" required><br> 
+    <p><b>Address:</b></p>
+        <label for="address">Enter your address</label>
+        <input type="text" id="address" name="address">
+    <p><b>Parent's details</b></p>
+        <label for="dname">Father Name:</label><br>
+        <input type="text" id="dname" name="dname"><br>
+        <label for="mname">Mother Name:</label><br>
+        <input type="text" id="mname" name="mname"><br> 
+        <label for="dq">Father qualification</label><br>
+        <input type="text" id="dq" name="dq"><br>
+        <label for="mq">Mother qualification</label><br>
+        <input type="text" id="mq" name="mq"><br>
+        <label for="fphone">Father Phone Number</label><br>
+        <input type="tel" id="fphone" name="fphone"  pattern="[0-9]{10}" required><br> 
+        <label for="mphone">Mother Phone Number</label><br>
+        <input type="tel" id="mphone" name="mphone"  pattern="[0-9]{10}" required><br>    
+    <p><b>Enter your intrested area of Sport:</b></p>
+        <label for="Sport1">CRICKET</label>
+        <input type="checkbox" id="Sport1"name="Sport1" value="CRICKET">
+        <label for="Sport2">FOOTBALL</label>
+        <input type="checkbox" id="Sport2"name="Sport2" value="FOOTBALL">
+        <label for="Sport3">KHOKHO</label>
+        <input type="checkbox" id="Sport3"name="Sport3" value="KHOKHO">    
+    <p><b>Please do say about your Superpowers:</b></p>
+        <label for="Superpowers">Superpowers</label><br> 
+        <input type="text" id="Superpowers" name="Superpowers"><br> 
+    <p><b>Pick your suit colour</b></p>
+        <label for="jercolour">Select your suit colour</label>
+        <input type="color" id="jercolour" name="jercolour" value="#ff0000"><br>
+    
+        <button>Submit</button>  
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                   var fname=$('#fname').val(); 
+                   alert('your details have submitted sucessfully ,'+fname);
+                });
+            });
+        </script>
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 AU Super School. All Rights Reserved.</p>
+            </div>
+        </footer>
+</body>    
+</html>

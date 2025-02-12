@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #031104;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="color"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.main {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+input[type="tel"]:invalid {
+    border-color: #d51919;
+}
+
+input[type="tel"]:valid {
+    border-color: green;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0;
+}

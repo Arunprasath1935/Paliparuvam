@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+/* Courses Section */
+.courses-section {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.courses-section h2 {
+    color: #4CAF50;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.courses-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.course h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
